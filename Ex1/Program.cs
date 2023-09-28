@@ -33,5 +33,5 @@
 
     static void PrintResult(int positiveCount)
     {
-        Console.WriteLine($"Количество чисел больше 0: {positiveCount}");
+        Console.WriteLine($"Количество чисел больше 0 = {positiveCount}");
     }
