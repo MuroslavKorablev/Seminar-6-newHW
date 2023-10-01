@@ -5,7 +5,7 @@ b1 = WorkWithUser("Введите значение b1: ");
 k2 = WorkWithUser("Введите значение k2: ");
 b2 = WorkWithUser("Введите значение b2: ");
 
-GigaChat(k1, k2, b1, b2);
+FindIntersectionPoint(k1, k2, b1, b2);
 
 double WorkWithUser(string message)
 {
@@ -20,7 +20,7 @@ double WorkWithUser(string message)
 }
 
 // Найдем точку пересечения двух прямых
-void GigaChat(double k1, double k2, double b1, double b2)
+void FindIntersectionPoint(double k1, double k2, double b1, double b2)
 {
     if (k1 == k2)
     {
